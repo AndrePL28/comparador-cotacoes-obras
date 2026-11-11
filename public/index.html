@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparador de Cotações</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-conteudo">
+      <div>
+        <h1>Comparador de Cotações</h1>
+        <p class="sub">Propostas de fornecedores → mapa de cotação revisado</p>
+      </div>
+      <div class="topo-acoes">
+        <span id="status-ia" class="selo">verificando IA…</span>
+        <button id="btn-nova" class="btn btn-sec" type="button">Nova cotação</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="aviso-sem-chave" class="aviso" hidden>
+    <strong>IA desativada.</strong> A variável <code>ANTHROPIC_API_KEY</code> não está configurada no servidor.
+    O app funciona com entrada manual: use "Preencher manualmente" em cada proposta.
+  </div>
+
+  <main>
+    <section class="etapa" id="etapa-itens">
+      <h2><span class="num">1</span> Itens a comprar</h2>
+      <p class="ajuda">Uma linha por item: <code>descrição; quantidade; unidade</code>. Também aceita colar direto do Excel
+        (três colunas) ou <code>100 sc Cimento CP-II</code>.</p>
+      <div class="itens-entrada">
+        <textarea id="txt-itens" rows="7" spellcheck="false"
+          placeholder="Cimento CP-II 50kg; 100; sc&#10;Areia média lavada; 12; m³&#10;Parafuso chipboard 4,2x32; 2000; un"></textarea>
+        <div class="col-botoes">
+          <button id="btn-itens" class="btn" type="button">Usar estes itens</button>
+          <button id="btn-exemplo" class="btn btn-sec" type="button">Carregar exemplo (15 itens)</button>
+        </div>
+      </div>
+      <ul id="erros-itens" class="erros"></ul>
+      <div id="lista-itens"></div>
+    </section>
+
+    <section class="etapa" id="etapa-propostas">
+      <h2><span class="num">2</span> Propostas dos fornecedores</h2>
+      <p class="ajuda">Uma proposta por fornecedor: PDF, foto (PNG/JPG), planilha (XLSX/CSV) ou texto do e-mail.
+        Valores de <span class="chip baixa">baixa confiança</span> precisam ser confirmados ou corrigidos.
+        Nenhuma proposta entra no mapa final sem ser marcada como revisada.</p>
+      <div class="nova-proposta">
+        <label class="btn" id="lbl-arquivo">
+          Enviar arquivo
+          <input id="inp-arquivo" type="file" accept=".pdf,.png,.jpg,.jpeg,.xlsx,.csv,.txt" hidden multiple>
+        </label>
+        <button id="btn-colar" class="btn btn-sec" type="button">Colar texto do e-mail</button>
+        <button id="btn-manual" class="btn btn-sec" type="button">Preencher manualmente</button>
+      </div>
+      <div id="colar-area" class="colar" hidden>
+        <textarea id="txt-colar" rows="8" placeholder="Cole aqui o texto da proposta recebida por e-mail ou WhatsApp"></textarea>
+        <div>
+          <button id="btn-colar-enviar" class="btn" type="button">Extrair com IA</button>
+          <button id="btn-colar-cancelar" class="btn btn-sec" type="button">Cancelar</button>
+        </div>
+      </div>
+      <div id="fila"></div>
+      <div id="propostas"></div>
+    </section>
+
+    <section class="etapa" id="etapa-mapa">
+      <h2><span class="num">3</span> Mapa de cotação</h2>
+      <div id="mapa-status" class="ajuda"></div>
+      <div id="mapa" class="mapa-wrap"></div>
+      <div id="resumo" class="resumo"></div>
+      <h3>Alertas</h3>
+      <div id="alertas"></div>
+      <div class="exportar">
+        <button id="btn-exportar" class="btn" type="button" disabled>Exportar mapa (XLSX)</button>
+        <span id="exportar-motivo" class="ajuda"></span>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">Projeto de portfólio · dados de exemplo fictícios · a IA só extrai; as contas são feitas por código.</footer>
+</body>
+</html>
