@@ -1,0 +1,125 @@
+{
+  "caso": "c04",
+  "lista": "L1",
+  "formato": "txt",
+  "variante": "email",
+  "dificuldades": [
+    "texto livre",
+    "item faltando",
+    "frete incluso",
+    "desconto à vista",
+    "validade por data"
+  ],
+  "arquivo": "c04.txt",
+  "proposta": {
+    "id": "c04",
+    "origem": {
+      "arquivo": "c04.txt",
+      "tipo": "txt",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Ferragens e Materiais Rio Claro Ltda",
+      "cnpj": "19.443.805/0001-48"
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 2,
+      "texto": "entrega em 48h após confirmação"
+    },
+    "condicaoPagamento": "28 dd",
+    "descontoAVistaPercentual": 5,
+    "dataProposta": "2026-11-07",
+    "validade": {
+      "data": "2026-11-15",
+      "dias": null
+    },
+    "totalDeclarado": 16571.5,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "cimento cp2 50kg",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": null,
+          "texto": "sacos"
+        },
+        "precoUnitario": 38.4,
+        "total": 4608
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "areia media lavada",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "m3"
+        },
+        "precoUnitario": 128,
+        "total": 2304
+      },
+      {
+        "id": "l3",
+        "itemId": "i4",
+        "descricao": "bloco 14x19x29",
+        "quantidade": 4000,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "peças"
+        },
+        "precoUnitario": 0.95,
+        "total": 3800
+      },
+      {
+        "id": "l4",
+        "itemId": "i5",
+        "descricao": "vergalhão 10mm barra de 12",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "barras"
+        },
+        "precoUnitario": 59.9,
+        "total": 4792
+      },
+      {
+        "id": "l5",
+        "itemId": "i6",
+        "descricao": "arame 18",
+        "quantidade": 25,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "kg"
+        },
+        "precoUnitario": 17.5,
+        "total": 437.5
+      },
+      {
+        "id": "l6",
+        "itemId": "i7",
+        "descricao": "prego 17x27",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "kg"
+        },
+        "precoUnitario": 21,
+        "total": 630
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

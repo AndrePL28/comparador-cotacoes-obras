@@ -1,0 +1,140 @@
+{
+  "caso": "c03",
+  "lista": "L1",
+  "formato": "xlsx",
+  "variante": "planilha",
+  "dificuldades": [
+    "planilha",
+    "unidade incompatível (kg × barra)",
+    "desconto à vista",
+    "embalagem com conteúdo"
+  ],
+  "arquivo": "c03.xlsx",
+  "proposta": {
+    "id": "c03",
+    "origem": {
+      "arquivo": "c03.xlsx",
+      "tipo": "xlsx",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Comercial Pedra Branca Ltda",
+      "cnpj": "33.618.240/0001-13"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 350
+    },
+    "prazoEntrega": {
+      "dias": 2,
+      "texto": "2 dias"
+    },
+    "condicaoPagamento": "21 dias",
+    "descontoAVistaPercentual": 3,
+    "dataProposta": "2026-11-05",
+    "validade": {
+      "data": "2026-11-20",
+      "dias": null
+    },
+    "totalDeclarado": 18011.9,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Cimento CP II E-32",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": {
+            "quantidade": 50,
+            "unidade": "kg"
+          },
+          "texto": "SC 50KG"
+        },
+        "precoUnitario": 37.8,
+        "total": 4536
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Areia média",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 132,
+        "total": 2376
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Brita 1",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 115,
+        "total": 1380
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Bloco cerâmico 14x19x29",
+        "quantidade": 4000,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 0.92,
+        "total": 3680
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Vergalhão CA-50 10mm",
+        "quantidade": 592,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 7.95,
+        "total": 4706.4
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Arame recozido 18",
+        "quantidade": 25,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 16.9,
+        "total": 422.5
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Prego 17x27",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 18.7,
+        "total": 561
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

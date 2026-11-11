@@ -1,0 +1,135 @@
+{
+  "caso": "c05",
+  "lista": "L1",
+  "formato": "pdf",
+  "variante": "tabela",
+  "dificuldades": [
+    "proposta vencida",
+    "soma diferente do total"
+  ],
+  "arquivo": "c05.pdf",
+  "proposta": {
+    "id": "c05",
+    "origem": {
+      "arquivo": "c05.pdf",
+      "tipo": "pdf",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Distribuidora Alvorada Materiais de Construção Ltda",
+      "cnpj": "07.215.964/0001-14"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 300
+    },
+    "prazoEntrega": {
+      "dias": 4,
+      "texto": "4 dias"
+    },
+    "condicaoPagamento": "28/42 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-10-20",
+    "validade": {
+      "data": null,
+      "dias": 10
+    },
+    "totalDeclarado": 17889,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Cimento Portland CP II-E-32 (50 kg)",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": null,
+          "texto": "SC"
+        },
+        "precoUnitario": 36.5,
+        "total": 4380
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Areia média lavada",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 122,
+        "total": 2196
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Brita 1",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 117,
+        "total": 1404
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Bloco cerâmico vedação 14x19x29",
+        "quantidade": 4000,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 0.86,
+        "total": 3440
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Vergalhão CA50 10mm x 12m",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "BARRA"
+        },
+        "precoUnitario": 57.9,
+        "total": 4632
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Arame recozido 18 BWG",
+        "quantidade": 25,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 18.2,
+        "total": 455
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Prego com cabeça 17x27",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 19.4,
+        "total": 582
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

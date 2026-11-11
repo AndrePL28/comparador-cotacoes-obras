@@ -1,0 +1,143 @@
+{
+  "caso": "c11",
+  "lista": "L2",
+  "formato": "xlsx",
+  "variante": "planilha",
+  "dificuldades": [
+    "planilha",
+    "pacote c/ 10",
+    "frete incluso",
+    "desconto à vista"
+  ],
+  "arquivo": "c11.xlsx",
+  "proposta": {
+    "id": "c11",
+    "origem": {
+      "arquivo": "c11.xlsx",
+      "tipo": "xlsx",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Atacadão Hidráulico Serrano Ltda",
+      "cnpj": "50.338.921/0001-47"
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 7,
+      "texto": "7 dias"
+    },
+    "condicaoPagamento": "30 dias",
+    "descontoAVistaPercentual": 2,
+    "dataProposta": "2026-11-07",
+    "validade": {
+      "data": "2026-11-25",
+      "dias": null
+    },
+    "totalDeclarado": 4638.6,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Tubo PVC soldável 25 mm",
+        "quantidade": 40,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": {
+            "quantidade": 6,
+            "unidade": "m"
+          },
+          "texto": "BARRA 6M"
+        },
+        "precoUnitario": 23.5,
+        "total": 940
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Joelho 90° soldável 25 mm",
+        "quantidade": 6,
+        "unidade": {
+          "codigo": "pct",
+          "conteudo": {
+            "quantidade": 10,
+            "unidade": "un"
+          },
+          "texto": "PCT C/ 10"
+        },
+        "precoUnitario": 12.9,
+        "total": 77.4
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Registro de gaveta 3/4\"",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 49.5,
+        "total": 594
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Cabo flexível 2,5 mm²",
+        "quantidade": 800,
+        "unidade": {
+          "codigo": "m",
+          "conteudo": null,
+          "texto": "M"
+        },
+        "precoUnitario": 2.15,
+        "total": 1720
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Cabo flexível 4 mm²",
+        "quantidade": 300,
+        "unidade": {
+          "codigo": "m",
+          "conteudo": null,
+          "texto": "M"
+        },
+        "precoUnitario": 3.45,
+        "total": 1035
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Disjuntor monopolar 20 A",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 10.9,
+        "total": 196.2
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Caixa 4x2 embutir",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 0.95,
+        "total": 76
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

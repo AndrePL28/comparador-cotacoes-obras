@@ -1,0 +1,126 @@
+{
+  "caso": "c12",
+  "lista": "L2",
+  "formato": "pdf",
+  "variante": "baguncado",
+  "dificuldades": [
+    "layout bagunçado",
+    "preço fora da mediana",
+    "item faltando"
+  ],
+  "arquivo": "c12.pdf",
+  "proposta": {
+    "id": "c12",
+    "origem": {
+      "arquivo": "c12.pdf",
+      "tipo": "pdf",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Instaladora e Comércio Ponte Alta Ltda",
+      "cnpj": "61.207.584/0001-75"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 200
+    },
+    "prazoEntrega": {
+      "dias": 6,
+      "texto": "6 dias"
+    },
+    "condicaoPagamento": "Entrada + 30 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-10-28",
+    "validade": {
+      "data": null,
+      "dias": 15
+    },
+    "totalDeclarado": 4384.2,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Tubo soldável 25mm - barra 6 metros",
+        "quantidade": 40,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "BR"
+        },
+        "precoUnitario": 26.8,
+        "total": 1072
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Joelho 90 graus 25mm soldável",
+        "quantidade": 60,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 1.3,
+        "total": 78
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Registro de gaveta 3/4 pol.",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 47,
+        "total": 564
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Fio flexível 2,5mm²",
+        "quantidade": 8,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": {
+            "quantidade": 100,
+            "unidade": "m"
+          },
+          "texto": "ROLO 100M"
+        },
+        "precoUnitario": 231,
+        "total": 1848
+      },
+      {
+        "id": "l5",
+        "itemId": "i6",
+        "descricao": "Disjuntor 1P 20A",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 29.9,
+        "total": 538.2
+      },
+      {
+        "id": "l6",
+        "itemId": "i7",
+        "descricao": "Caixa embutir 4x2",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 1.05,
+        "total": 84
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

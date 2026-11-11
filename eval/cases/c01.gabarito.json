@@ -1,0 +1,134 @@
+{
+  "caso": "c01",
+  "lista": "L1",
+  "formato": "pdf",
+  "variante": "tabela",
+  "dificuldades": [
+    "tabela limpa"
+  ],
+  "arquivo": "c01.pdf",
+  "proposta": {
+    "id": "c01",
+    "origem": {
+      "arquivo": "c01.pdf",
+      "tipo": "pdf",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Depósito Serra Verde Materiais Ltda",
+      "cnpj": "41.527.836/0001-36"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 280
+    },
+    "prazoEntrega": {
+      "dias": 3,
+      "texto": "3 dias"
+    },
+    "condicaoPagamento": "28 dias - boleto",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-04",
+    "validade": {
+      "data": null,
+      "dias": 15
+    },
+    "totalDeclarado": 17896,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Cimento CP-II-E-32 saco 50kg",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": null,
+          "texto": "SC"
+        },
+        "precoUnitario": 38.9,
+        "total": 4668
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Areia média lavada",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 125,
+        "total": 2250
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Pedra brita nº 1",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M3"
+        },
+        "precoUnitario": 118,
+        "total": 1416
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Bloco cerâmico 9 furos 14x19x29",
+        "quantidade": 4000,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 0.89,
+        "total": 3560
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Vergalhão CA-50 10,0mm barra 12m",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "BR"
+        },
+        "precoUnitario": 58.5,
+        "total": 4680
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Arame recozido nº 18",
+        "quantidade": 25,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 17.8,
+        "total": 445
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Prego 17x27 c/ cabeça",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 19.9,
+        "total": 597
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

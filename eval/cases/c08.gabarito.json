@@ -1,0 +1,99 @@
+{
+  "caso": "c08",
+  "lista": "L2",
+  "formato": "txt",
+  "variante": "whatsapp",
+  "dificuldades": [
+    "texto livre",
+    "\"ml\" = metro linear",
+    "itens faltando",
+    "desconto à vista",
+    "frete incluso"
+  ],
+  "arquivo": "c08.txt",
+  "proposta": {
+    "id": "c08",
+    "origem": {
+      "arquivo": "c08.txt",
+      "tipo": "txt",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Elétrica Luz do Vale ME",
+      "cnpj": "45.102.663/0001-65"
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 1,
+      "texto": "entrega amanhã"
+    },
+    "condicaoPagamento": "pix à vista ou boleto 21 dias",
+    "descontoAVistaPercentual": 4,
+    "dataProposta": "2026-11-08",
+    "validade": {
+      "data": null,
+      "dias": 5
+    },
+    "totalDeclarado": 3212.4,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i4",
+        "descricao": "fio flex 2,5mm",
+        "quantidade": 800,
+        "unidade": {
+          "codigo": "m",
+          "conteudo": null,
+          "texto": "ml"
+        },
+        "precoUnitario": 2.29,
+        "total": 1832
+      },
+      {
+        "id": "l2",
+        "itemId": "i5",
+        "descricao": "fio flex 4mm",
+        "quantidade": 300,
+        "unidade": {
+          "codigo": "m",
+          "conteudo": null,
+          "texto": "ml"
+        },
+        "precoUnitario": 3.59,
+        "total": 1077
+      },
+      {
+        "id": "l3",
+        "itemId": "i6",
+        "descricao": "disjuntor 20A unipolar",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "un"
+        },
+        "precoUnitario": 12.5,
+        "total": 225
+      },
+      {
+        "id": "l4",
+        "itemId": "i7",
+        "descricao": "caixinha 4x2 de embutir",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "un"
+        },
+        "precoUnitario": 0.98,
+        "total": 78.4
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

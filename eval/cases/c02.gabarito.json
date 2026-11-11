@@ -1,0 +1,125 @@
+{
+  "caso": "c02",
+  "lista": "L1",
+  "formato": "png",
+  "variante": "impresso",
+  "dificuldades": [
+    "imagem",
+    "abreviações",
+    "milheiro",
+    "item faltando",
+    "frete incluso"
+  ],
+  "arquivo": "c02.png",
+  "proposta": {
+    "id": "c02",
+    "origem": {
+      "arquivo": "c02.png",
+      "tipo": "png",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Casa & Obra Comércio de Materiais Eireli",
+      "cnpj": "28.904.117/0001-29"
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 5,
+      "texto": "5 dias úteis"
+    },
+    "condicaoPagamento": "30/60 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-06",
+    "validade": {
+      "data": null,
+      "dias": 10
+    },
+    "totalDeclarado": 17172.5,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "CIM CP II-E 32 50KG",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": null,
+          "texto": "SC"
+        },
+        "precoUnitario": 39.5,
+        "total": 4740
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "AREIA MED LAV",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M³"
+        },
+        "precoUnitario": 119,
+        "total": 2142
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "BRITA 01",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "M³"
+        },
+        "precoUnitario": 121,
+        "total": 1452
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "BLOCO CER 14X19X29",
+        "quantidade": 4,
+        "unidade": {
+          "codigo": "milheiro",
+          "conteudo": null,
+          "texto": "MIL"
+        },
+        "precoUnitario": 870,
+        "total": 3480
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "VERG CA50 10MM 12M",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "BR"
+        },
+        "precoUnitario": 61.2,
+        "total": 4896
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "ARAME RECOZ 18",
+        "quantidade": 25,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 18.5,
+        "total": 462.5
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

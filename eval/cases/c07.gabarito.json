@@ -1,0 +1,140 @@
+{
+  "caso": "c07",
+  "lista": "L2",
+  "formato": "pdf",
+  "variante": "tabela",
+  "dificuldades": [
+    "rolo × metro"
+  ],
+  "arquivo": "c07.pdf",
+  "proposta": {
+    "id": "c07",
+    "origem": {
+      "arquivo": "c07.pdf",
+      "tipo": "pdf",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Hidrelétrica Central Comércio Ltda",
+      "cnpj": "22.781.390/0001-27"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 120
+    },
+    "prazoEntrega": {
+      "dias": 4,
+      "texto": "4 dias"
+    },
+    "condicaoPagamento": "28 dd",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-05",
+    "validade": {
+      "data": null,
+      "dias": 7
+    },
+    "totalDeclarado": 4885,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Tubo PVC soldável 25mm barra 6m",
+        "quantidade": 40,
+        "unidade": {
+          "codigo": "barra",
+          "conteudo": null,
+          "texto": "BR"
+        },
+        "precoUnitario": 24.9,
+        "total": 996
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Joelho 90º soldável 25mm",
+        "quantidade": 60,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PÇ"
+        },
+        "precoUnitario": 1.35,
+        "total": 81
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Registro gaveta bruto 3/4\"",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PÇ"
+        },
+        "precoUnitario": 48.9,
+        "total": 586.8
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Cabo flexível 2,5mm² 750V",
+        "quantidade": 8,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": {
+            "quantidade": 100,
+            "unidade": "m"
+          },
+          "texto": "RL 100M"
+        },
+        "precoUnitario": 219,
+        "total": 1752
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Cabo flexível 4,0mm² 750V",
+        "quantidade": 3,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": {
+            "quantidade": 100,
+            "unidade": "m"
+          },
+          "texto": "RL 100M"
+        },
+        "precoUnitario": 349,
+        "total": 1047
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Disjuntor DIN monopolar 20A curva C",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PÇ"
+        },
+        "precoUnitario": 11.9,
+        "total": 214.2
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Caixa de luz 4x2 PVC",
+        "quantidade": 80,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PÇ"
+        },
+        "precoUnitario": 1.1,
+        "total": 88
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

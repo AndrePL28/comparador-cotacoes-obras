@@ -1,0 +1,123 @@
+{
+  "caso": "c17",
+  "lista": "L3",
+  "formato": "csv",
+  "variante": "csv",
+  "dificuldades": [
+    "csv",
+    "proposta vencida",
+    "caixa de porcelanato em m²",
+    "itens faltando"
+  ],
+  "arquivo": "c17.csv",
+  "proposta": {
+    "id": "c17",
+    "origem": {
+      "arquivo": "c17.csv",
+      "tipo": "csv",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Pisos e Tintas Monte Azul Ltda",
+      "cnpj": "53.629.418/0001-39"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 180
+    },
+    "prazoEntrega": {
+      "dias": 8,
+      "texto": "8 DIAS"
+    },
+    "condicaoPagamento": "28 DIAS",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-10-15",
+    "validade": {
+      "data": null,
+      "dias": 15
+    },
+    "totalDeclarado": 22070,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i2",
+        "descricao": "PORC 60X60 ACET",
+        "quantidade": 153,
+        "unidade": {
+          "codigo": "cx",
+          "conteudo": {
+            "quantidade": 1.44,
+            "unidade": "m2"
+          },
+          "texto": "CX 1,44M2"
+        },
+        "precoUnitario": 101,
+        "total": 15453
+      },
+      {
+        "id": "l2",
+        "itemId": "i1",
+        "descricao": "ARG AC II 20KG",
+        "quantidade": 90,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": {
+            "quantidade": 20,
+            "unidade": "kg"
+          },
+          "texto": "SC 20KG"
+        },
+        "precoUnitario": 26.9,
+        "total": 2421
+      },
+      {
+        "id": "l3",
+        "itemId": "i4",
+        "descricao": "TINTA ACRIL FOSCA BCA 18L",
+        "quantidade": 10,
+        "unidade": {
+          "codigo": "lata",
+          "conteudo": {
+            "quantidade": 18,
+            "unidade": "l"
+          },
+          "texto": "LATA 18L"
+        },
+        "precoUnitario": 279,
+        "total": 2790
+      },
+      {
+        "id": "l4",
+        "itemId": "i5",
+        "descricao": "MASSA CORRIDA PVA 18L",
+        "quantidade": 10,
+        "unidade": {
+          "codigo": "lata",
+          "conteudo": {
+            "quantidade": 18,
+            "unidade": "l"
+          },
+          "texto": "LATA 18L"
+        },
+        "precoUnitario": 101,
+        "total": 1010
+      },
+      {
+        "id": "l5",
+        "itemId": "i7",
+        "descricao": "FITA CREPE 48X50",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": null,
+          "texto": "RL"
+        },
+        "precoUnitario": 7.2,
+        "total": 216
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

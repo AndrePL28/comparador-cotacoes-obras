@@ -1,0 +1,150 @@
+{
+  "caso": "c18",
+  "lista": "L3",
+  "formato": "pdf",
+  "variante": "baguncado",
+  "dificuldades": [
+    "layout bagunçado",
+    "soma diferente do total",
+    "desconto à vista",
+    "frete incluso",
+    "caixa c/ 1000"
+  ],
+  "arquivo": "c18.pdf",
+  "proposta": {
+    "id": "c18",
+    "origem": {
+      "arquivo": "c18.pdf",
+      "tipo": "pdf",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Mega Obra Acabamentos Ltda",
+      "cnpj": "47.185.326/0001-12"
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 4,
+      "texto": "4 dias"
+    },
+    "condicaoPagamento": "28 dias",
+    "descontoAVistaPercentual": 3,
+    "dataProposta": "2026-11-02",
+    "validade": {
+      "data": null,
+      "dias": 20
+    },
+    "totalDeclarado": 21764,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Argamassa AC-II saco 20kg",
+        "quantidade": 90,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": {
+            "quantidade": 20,
+            "unidade": "kg"
+          },
+          "texto": "SC 20KG"
+        },
+        "precoUnitario": 25.4,
+        "total": 2286
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Porcelanato acetinado 60x60",
+        "quantidade": 220,
+        "unidade": {
+          "codigo": "m2",
+          "conteudo": null,
+          "texto": "M²"
+        },
+        "precoUnitario": 72,
+        "total": 15840
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Rejunte flexível cinza",
+        "quantidade": 40,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "KG"
+        },
+        "precoUnitario": 6.5,
+        "total": 260
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Tinta acrílica fosca branca",
+        "quantidade": 10,
+        "unidade": {
+          "codigo": "lata",
+          "conteudo": {
+            "quantidade": 18,
+            "unidade": "l"
+          },
+          "texto": "LATA 18L"
+        },
+        "precoUnitario": 295,
+        "total": 2950
+      },
+      {
+        "id": "l5",
+        "itemId": "i5",
+        "descricao": "Massa corrida PVA",
+        "quantidade": 10,
+        "unidade": {
+          "codigo": "lata",
+          "conteudo": {
+            "quantidade": 18,
+            "unidade": "l"
+          },
+          "texto": "LATA 18L"
+        },
+        "precoUnitario": 99.5,
+        "total": 995
+      },
+      {
+        "id": "l6",
+        "itemId": "i6",
+        "descricao": "Parafuso chipboard 4,2x32",
+        "quantidade": 2,
+        "unidade": {
+          "codigo": "cx",
+          "conteudo": {
+            "quantidade": 1000,
+            "unidade": "un"
+          },
+          "texto": "CX C/ 1000"
+        },
+        "precoUnitario": 95,
+        "total": 190
+      },
+      {
+        "id": "l7",
+        "itemId": "i7",
+        "descricao": "Fita crepe 48mm x 50m",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": null,
+          "texto": "RL"
+        },
+        "precoUnitario": 8.1,
+        "total": 243
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

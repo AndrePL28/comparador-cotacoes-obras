@@ -1,0 +1,98 @@
+{
+  "caso": "c09",
+  "lista": "L2",
+  "formato": "csv",
+  "variante": "csv",
+  "dificuldades": [
+    "csv",
+    "metro × barra",
+    "item extra fora da lista",
+    "itens faltando"
+  ],
+  "arquivo": "c09.csv",
+  "proposta": {
+    "id": "c09",
+    "origem": {
+      "arquivo": "c09.csv",
+      "tipo": "csv",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Casa do Encanador Pinheiros Ltda",
+      "cnpj": "36.950.418/0001-17"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 95
+    },
+    "prazoEntrega": {
+      "dias": 3,
+      "texto": "3 DIAS"
+    },
+    "condicaoPagamento": "30 DIAS",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-06",
+    "validade": {
+      "data": null,
+      "dias": 10
+    },
+    "totalDeclarado": 1912.4,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "TUBO SOLD 25MM",
+        "quantidade": 240,
+        "unidade": {
+          "codigo": "m",
+          "conteudo": null,
+          "texto": "M"
+        },
+        "precoUnitario": 4.2,
+        "total": 1008
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "JOELHO 90 SOLD 25MM",
+        "quantidade": 60,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 1.2,
+        "total": 72
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "REG GAVETA 3/4 BRUTO",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 52,
+        "total": 624
+      },
+      {
+        "id": "l4",
+        "itemId": null,
+        "descricao": "ADESIVO PVC 175G",
+        "quantidade": 6,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "UN"
+        },
+        "precoUnitario": 18.9,
+        "total": 113.4
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

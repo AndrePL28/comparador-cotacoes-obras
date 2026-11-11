@@ -1,0 +1,99 @@
+{
+  "caso": "c06",
+  "lista": "L1",
+  "formato": "jpg",
+  "variante": "manuscrito",
+  "dificuldades": [
+    "manuscrito",
+    "preço fora da mediana",
+    "frete a combinar",
+    "sem validade",
+    "itens faltando"
+  ],
+  "arquivo": "c06.jpg",
+  "proposta": {
+    "id": "c06",
+    "origem": {
+      "arquivo": "c06.jpg",
+      "tipo": "jpg",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Madeireira e Materiais Boa Vista",
+      "cnpj": null
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 1,
+      "texto": "1 dia"
+    },
+    "condicaoPagamento": "à vista ou 15 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-07",
+    "validade": {
+      "data": null,
+      "dias": null
+    },
+    "totalDeclarado": 14698,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Cimento 50kg",
+        "quantidade": 120,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": null,
+          "texto": "sc"
+        },
+        "precoUnitario": 41,
+        "total": 4920
+      },
+      {
+        "id": "l2",
+        "itemId": "i2",
+        "descricao": "Areia média",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "m³"
+        },
+        "precoUnitario": 135,
+        "total": 2430
+      },
+      {
+        "id": "l3",
+        "itemId": "i3",
+        "descricao": "Brita 1",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "m3",
+          "conteudo": null,
+          "texto": "m³"
+        },
+        "precoUnitario": 129,
+        "total": 1548
+      },
+      {
+        "id": "l4",
+        "itemId": "i4",
+        "descricao": "Bloco 14x19x29",
+        "quantidade": 4000,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "un"
+        },
+        "precoUnitario": 1.45,
+        "total": 5800
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "caso": "c10",
+  "lista": "L2",
+  "formato": "png",
+  "variante": "impresso",
+  "dificuldades": [
+    "imagem",
+    "rolos de tamanhos diferentes",
+    "caixa c/ 10",
+    "total da linha errado"
+  ],
+  "arquivo": "c10.png",
+  "proposta": {
+    "id": "c10",
+    "origem": {
+      "arquivo": "c10.png",
+      "tipo": "png",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Comercial Elétrica Paraná Sul Ltda",
+      "cnpj": "12.664.073/0001-77"
+    },
+    "frete": {
+      "tipo": "FOB",
+      "valor": 150
+    },
+    "prazoEntrega": {
+      "dias": 5,
+      "texto": "5 dias"
+    },
+    "condicaoPagamento": "28 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-04",
+    "validade": {
+      "data": null,
+      "dias": 15
+    },
+    "totalDeclarado": 5000.6,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i2",
+        "descricao": "JOELHO 90 SOLDAVEL 25MM",
+        "quantidade": 60,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PC"
+        },
+        "precoUnitario": 1.45,
+        "total": 87
+      },
+      {
+        "id": "l2",
+        "itemId": "i3",
+        "descricao": "REGISTRO GAVETA 3/4\"",
+        "quantidade": 12,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PC"
+        },
+        "precoUnitario": 61,
+        "total": 732
+      },
+      {
+        "id": "l3",
+        "itemId": "i4",
+        "descricao": "CABO FLEX 2,5MM2",
+        "quantidade": 8,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": {
+            "quantidade": 100,
+            "unidade": "m"
+          },
+          "texto": "RL 100M"
+        },
+        "precoUnitario": 225,
+        "total": 1800
+      },
+      {
+        "id": "l4",
+        "itemId": "i5",
+        "descricao": "CABO FLEX 4MM2",
+        "quantidade": 6,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": {
+            "quantidade": 50,
+            "unidade": "m"
+          },
+          "texto": "RL 50M"
+        },
+        "precoUnitario": 182,
+        "total": 1902
+      },
+      {
+        "id": "l5",
+        "itemId": "i6",
+        "descricao": "DISJ MONOP 20A",
+        "quantidade": 18,
+        "unidade": {
+          "codigo": "un",
+          "conteudo": null,
+          "texto": "PC"
+        },
+        "precoUnitario": 13.2,
+        "total": 237.6
+      },
+      {
+        "id": "l6",
+        "itemId": "i7",
+        "descricao": "CX LUZ 4X2 EMBUTIR",
+        "quantidade": 8,
+        "unidade": {
+          "codigo": "cx",
+          "conteudo": {
+            "quantidade": 10,
+            "unidade": "un"
+          },
+          "texto": "CX C/ 10"
+        },
+        "precoUnitario": 11.5,
+        "total": 92
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}

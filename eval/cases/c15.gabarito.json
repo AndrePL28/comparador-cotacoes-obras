@@ -1,0 +1,105 @@
+{
+  "caso": "c15",
+  "lista": "L3",
+  "formato": "jpg",
+  "variante": "manuscrito",
+  "dificuldades": [
+    "manuscrito",
+    "caixa c/ 500",
+    "sem validade",
+    "frete incluso",
+    "itens faltando"
+  ],
+  "arquivo": "c15.jpg",
+  "proposta": {
+    "id": "c15",
+    "origem": {
+      "arquivo": "c15.jpg",
+      "tipo": "jpg",
+      "modo": "gabarito"
+    },
+    "fornecedor": {
+      "nome": "Casa das Tintas Jardim",
+      "cnpj": null
+    },
+    "frete": {
+      "tipo": "CIF",
+      "valor": null
+    },
+    "prazoEntrega": {
+      "dias": 2,
+      "texto": "2 dias"
+    },
+    "condicaoPagamento": "28 dias",
+    "descontoAVistaPercentual": null,
+    "dataProposta": "2026-11-08",
+    "validade": {
+      "data": null,
+      "dias": null
+    },
+    "totalDeclarado": 2872,
+    "observacoes": null,
+    "itens": [
+      {
+        "id": "l1",
+        "itemId": "i1",
+        "descricao": "Argamassa AC2",
+        "quantidade": 90,
+        "unidade": {
+          "codigo": "sc",
+          "conteudo": {
+            "quantidade": 20,
+            "unidade": "kg"
+          },
+          "texto": "sc 20kg"
+        },
+        "precoUnitario": 23.9,
+        "total": 2151
+      },
+      {
+        "id": "l2",
+        "itemId": "i3",
+        "descricao": "Rejunte flex cinza",
+        "quantidade": 40,
+        "unidade": {
+          "codigo": "kg",
+          "conteudo": null,
+          "texto": "kg"
+        },
+        "precoUnitario": 7.2,
+        "total": 288
+      },
+      {
+        "id": "l3",
+        "itemId": "i6",
+        "descricao": "Parafuso 4,2x32",
+        "quantidade": 4,
+        "unidade": {
+          "codigo": "cx",
+          "conteudo": {
+            "quantidade": 500,
+            "unidade": "un"
+          },
+          "texto": "cx c/ 500"
+        },
+        "precoUnitario": 49,
+        "total": 196
+      },
+      {
+        "id": "l4",
+        "itemId": "i7",
+        "descricao": "Fita crepe 48mm",
+        "quantidade": 30,
+        "unidade": {
+          "codigo": "rolo",
+          "conteudo": null,
+          "texto": "rl"
+        },
+        "precoUnitario": 7.9,
+        "total": 237
+      }
+    ],
+    "confianca": {},
+    "revisada": true
+  }
+}
