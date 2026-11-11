@@ -6,7 +6,7 @@ eval/reports/*.json
 # relatórios com data e simulados ficam só na máquina; os oficiais são rodada1, rodada2 e ultimo.md
 eval/reports/20*
 eval/reports/*simulado*
-.claude/settings.local.json
+.claude/
 public/_demo-estado.json
 *.log
 *.rar
