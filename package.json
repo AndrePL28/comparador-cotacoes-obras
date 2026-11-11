@@ -1,0 +1,26 @@
+{
+  "name": "comparador-cotacoes",
+  "version": "0.1.0",
+  "description": "Comparador de cotações de fornecedores para obras, com extração por IA e revisão humana",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "eval": "node --env-file-if-exists=.env eval/run.js",
+    "eval:gerar": "node eval/generate.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "exceljs": "^4.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "pdfkit": "^0.20.2",
+    "sharp": "^0.35.5"
+  }
+}
